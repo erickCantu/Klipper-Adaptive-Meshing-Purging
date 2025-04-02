@@ -87,11 +87,11 @@ The cleanest and easiest way to get started with KAMP is to use Moonraker's Upda
    ```bash
     cd
     
-    git clone https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
-    
-    ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration printer_data/config/KAMP
+    git clone https://github.com/erickCantu/Klipper-Adaptive-Meshing-Purging
 
-    cp ~/Klipper-Adaptive-Meshing-Purging/Configuration/KAMP_Settings.cfg ~/printer_data/config/KAMP_Settings.cfg
+    ln -s ~/AddOns/Klipper-Adaptive-Meshing-Purging/Configuration printer_data/config/KAMP
+
+    cp ~/AddOns/Klipper-Adaptive-Meshing-Purging/Configuration/KAMP_Settings.cfg ~/printer_data/config/KAMP_Settings.cfg
     ```
     > **Note:**
     > This will change to the home directory, clone the KAMP repo, create a symbolic link of the repo to your printer's config folder, and create a copy of `KAMP_Settings.cfg` in your config directory, ready to edit.
